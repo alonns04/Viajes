@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+header {
+    box-sizing: border-box;
+    padding: 0;
+} 
+
+main{
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    background-color: #005b76;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 30px;
+    padding: 5px 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgb(164, 191, 202);
+    color: #fff;
+}
+
+.portada{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagenes/inicio.jpg); 
+    color: #fff;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+}
+
+.portada p{
+    margin: 15px;
+    
+}
+
+.section-actividades{
+    
+    width:100%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* decha */
+.section-izq{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-right: 10%;
+}
+
+
+.img-izq{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagenes/actividad.jpg); 
+    color: #fff;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+
+
+.texto-izq{ 
+    padding-top: 20px;
+}
+
+/* decha */
+
+.section-dcha{
+    width: 40%;
+    height: 100%;
+    padding-right: 10%;
+}
+
+
+.titulo-dcha{
+    text-align: center;  
+}
+
+.titulo-dcha h3{
+    font-size: 20px;
+}
+
+.actividad-dcha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.img-dcha{
+    width: 50%;
+}
+
+.img-dcha img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.texto-dcha{
+    width: 50%;
+    margin: 0 10px;padding-right: 10%;
+    
+}
+
+.texto-dcha h4{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.texto-dcha p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-fauna{
+    width:100%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    background-color: #3c6c82;
+    padding-bottom1: 10px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+}
+
+.fimg {
+    width: 8%;
+    max-width: 45px;
+    min-width: 20px;
+    margin: 3%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    filter: invert(87%) sepia(62%) saturate(183%) hue-rotate(249deg) brightness(115%) contrast(101%);
+}
+
+#fdivimg {
+    text-align: center;
+    width: 100%
+}
+
+.fcopy {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#ftable {
+    width: 100%;
+}
+
+.fth {
+    background-color: #003d50;
+    width: 33.3%;
+    padding: 0;
+    border: 0;
+}
+
+.ftable {
+    border-collapse: collapse;
+    border: none;
+}
+
+.ftd {
+    padding: 0;
+    text-align: center;
+}
+
+.ftd33 {
+    width: 33.3%;
+}
+
+.fa {
+    text-decoration: none;
+}
+
+.fth-a {
+    color: #ffffff;
+}
+
+.ftd {
+    color: white;
+}
+#fbuttom {
+    margin-bottom: 0px !important;
+}
